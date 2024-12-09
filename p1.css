@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "popins",sans-serif;
+}
+.header{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 15px 30px;
+    font-size: 2em;
+    color: aqua;
+
+    
+}
+.home1{
+    color: aqua;
+    background-color: black;
+    font-size: 35px;
+    border-radius: 10px;
+    margin: 15px 30px;
+}
+body{
+    background-image:url(R.jpg) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+min-height: 100vh;
+}
+h1{
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    display: flex;
+    font-size: 30px;
+}
+.box{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(#ffffff34,#ffffff27);
+    flex-direction: column;
+    padding: 15px 30px;
+    display: flex;
+    box-sizing: 10%;
+    border: 10%;
+    border-radius: 20px;
+    min-height: 75vh;
+}
+.nom{
+    color: white;
+    font-size: 30px;
+    
+}
+.nom1{
+    font-size: 20px;
+    background: linear-gradient(#ffffff34,#ffffff27);
+    color: white;
+}
+.prenom1{
+    color: white;
+    font-size: 30px;
+}
+.prenom{
+    font-size: 20px;
+    background: linear-gradient(#ffffff34,#ffffff27);
+}
+.mdp{
+    color: white;
+    font-size: 30px;
+}
+.mdp1{
+    font-size: 20px;
+    background: linear-gradient(#ffffff34,#ffffff27);
+}
+.inscrire{
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    min-width: 200px;
+}
+label{
+    border-radius: 20px;
+
+}
+@media (min-width:320px) {
+    .container {
+        flex-direction: column;
+    }
+}
